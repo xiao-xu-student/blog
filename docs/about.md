@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 ---
 title: 关于我
 isTimeLine: false
@@ -12,3 +13,19 @@ isShowComments: true
 ### 目的
 
 - 我想写这个博客的目的很简单，和更多人分享自己所学以及记录自己学习的点点滴滴（实际是脑子不好使，得用这烂笔头记一下）。
+=======
+---
+title: 关于我
+isTimeLine: false
+sidebar: false
+isShowComments: true
+---
+
+### 关于我
+
+- 一个想为技术献身的代码帮运工，但是发现自己学的太少，而又热爱学习的技术爱好者！
+
+### 目的
+
+- 我想写这个博客的目的很简单，和更多人分享自己所学以及记录自己学习的点点滴滴（实际是脑子不好使，得用这烂笔头记一下）。
+>>>>>>> Stashed changes
