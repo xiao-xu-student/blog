@@ -1,2 +1,2 @@
-# blog
-小徐的博客
+
+# Hello VuePress

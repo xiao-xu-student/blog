@@ -1,0 +1,30 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "小徐的博客",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiao-xu-student/blog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xiao-xu-student/blog/issues"
+  },
+  "homepage": "https://github.com/xiao-xu-student/blog#readme",
+  "devDependencies": {
+    "vuepress-plugin-dynamic-title": "^1.0.0",
+    "vuepress-plugin-go-top": "^1.0.4",
+    "vuepress-plugin-meting": "^0.1.1",
+    "vuepress-theme-reco": "^1.5.5"
+  },
+  "dependencies": {
+    "aplayer": "^1.10.1"
+  }
+}
