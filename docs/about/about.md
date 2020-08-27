@@ -1,8 +1,5 @@
 ---
 title: 关于我
-isTimeLine: false
-sidebar: false
-isShowComments: true
 ---
 
 ### 关于我

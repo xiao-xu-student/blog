@@ -21,8 +21,12 @@ module.exports = {
       },
       { text: 'GitHub', link: 'https://github.com/xiao-xu-student/blog',icon:'reco-github' },
     ],
-    sidebar: 'auto'
+    sidebar: 'auto',
+    //最后更新时间
+    lastUpdated: '更新时间',
   },
+  
+
   plugins:
     [
       [
