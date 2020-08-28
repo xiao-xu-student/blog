@@ -1,4 +1,7 @@
+const moment = require('moment')
+    moment.locale('zh-cn')
 module.exports = {
+  base:'/blog/',
   title: '树上吹只气泡熊',
   head: [
     ['meta', { name: 'author', content: '树上吹只气泡熊' }],
@@ -16,7 +19,8 @@ module.exports = {
         text: '技能',
         items: [
           { text: 'Java', items: [{ text: 'java基础', link: '/' }, { text: 'Spring基础', link: '/' }] },
-          { text: 'Android', items: [{ text: 'Android基础', link: '/' }, { text: 'Avdroid高级', link: '/' }] }
+          { text: 'Android', items: [{ text: 'Android基础', link: '/' }, { text: 'Avdroid高级', link: '/' }] },
+          {text:'Git',items:[{text:'Git基本操作',link:'/views/Git/GitSimple'}]}
         ]
       },
       { text: 'GitHub', link: 'https://github.com/xiao-xu-student/blog',icon:'reco-github' },
@@ -72,7 +76,16 @@ module.exports = {
           cover: false,
         }
       }],
-      ['@vuepress-reco/vuepress-plugin-back-to-top']
+      ['@vuepress-reco/vuepress-plugin-back-to-top'],
+      [
+        '@vuepress/last-updated',
+        {
+          transformer: (timestamp) => {
+        
+            return moment(timestamp).format('LLLL')
+          }
+        }
+      ]
 
     ],
     markdown: {
